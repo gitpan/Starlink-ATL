@@ -1,0 +1,21 @@
+---
+abstract: "Perl tools for Starlink's AST library"
+author:
+  - 'Graham Bell <g.bell@jach.hawaii.edu>'
+configure_requires:
+  Module::Build: 0.36
+generated_by: 'Module::Build version 0.3607'
+license: gpl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Starlink-ATL
+provides:
+  Starlink::ATL::Region:
+    file: lib/Starlink/ATL/Region.pm
+    version: 0.01
+requires:
+  Starlink::AST: 1.02
+resources:
+  license: http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt
+version: 0.01
