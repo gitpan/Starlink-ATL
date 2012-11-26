@@ -8,7 +8,7 @@ use Module::Build;
 my $build = new Module::Build(
     module_name   => 'Starlink::ATL',
     dist_abstract => 'Perl tools for Starlink\'s AST library',
-    dist_version  => 0.01,
+    dist_version  => 0.02,
     license       => 'gpl',
     requires      => {
                       'Starlink::AST' => 1.02,
