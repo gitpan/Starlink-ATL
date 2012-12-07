@@ -4,3 +4,4 @@ Build.PL
 lib/Starlink/ATL/Region.pm
 t/region-merge.t
 META.yml
+META.json

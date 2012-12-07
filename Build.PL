@@ -8,11 +8,14 @@ use Module::Build;
 my $build = new Module::Build(
     module_name   => 'Starlink::ATL',
     dist_abstract => 'Perl tools for Starlink\'s AST library',
-    dist_version  => 0.02,
+    dist_version  => 0.03,
     license       => 'gpl',
     requires      => {
                       'Starlink::AST' => 1.02,
                      },
+    build_requires => {
+                       'Astro::Coords' => 0.18,
+                      },
     dist_author   => [
                       'Graham Bell <g.bell@jach.hawaii.edu>',
                      ],
