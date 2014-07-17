@@ -16,9 +16,9 @@ name: Starlink-ATL
 provides:
   Starlink::ATL::Region:
     file: lib/Starlink/ATL/Region.pm
-    version: 0.01
+    version: 0.04
 requires:
   Starlink::AST: 1.02
 resources:
-  license: http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt
-version: 0.03
+  license: http://www.gnu.org/licenses/gpl-3.0.txt
+version: 0.04

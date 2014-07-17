@@ -33,14 +33,14 @@
    "provides" : {
       "Starlink::ATL::Region" : {
          "file" : "lib/Starlink/ATL/Region.pm",
-         "version" : "0.01"
+         "version" : "0.04"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://www.gnu.org/licenses/old-licenses/gpl-1.0.txt"
+         "http://www.gnu.org/licenses/gpl-3.0.txt"
       ]
    },
-   "version" : "0.03"
+   "version" : "0.04"
 }

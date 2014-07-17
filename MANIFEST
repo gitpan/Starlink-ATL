@@ -1,7 +1,8 @@
-README
-MANIFEST
 Build.PL
+Changes
 lib/Starlink/ATL/Region.pm
-t/region-merge.t
-META.yml
+MANIFEST
 META.json
+META.yml
+README
+t/region-merge.t
